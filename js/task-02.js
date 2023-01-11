@@ -29,3 +29,12 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+
+const components = document.getElementById("ingredients");
+
+for(const ingredient of ingredients) {
+const liElem = document.createElement("li");
+console.log(liElem);
+liElem.textContent = ingredient;
+components.appendChild(liElem);
+};
