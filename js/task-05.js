@@ -5,13 +5,14 @@
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 */
 
-// const refs = {
-//     input: document.querySelector('#name-input'),
-//     output: document.querySelector('#name-output')
-// };
-// refs.input.addEventListener('input', onInputListener);
+const refs = {
+    input: document.querySelector('#name-input'),
+    output: document.querySelector('#name-output')
+};
+refs.input.addEventListener('input', onInputListener);
 
-// function onInputListener(event) {
-//     refs.output.textContent = event.currentTarget.value || 'Anonymous';
+function onInputListener(event) {
+    refs.output.textContent = event.currentTarget.value || 'Anonymous';
 
-// };
+};
+
