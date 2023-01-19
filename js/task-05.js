@@ -8,4 +8,3 @@ function onInputListener(event) {
     refs.output.textContent = event.currentTarget.value || 'Anonymous';
 
 };
-
